@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:/Users/muham/Desktop/HitRadar/templates\" \"C:/Users/muham/Desktop/HitRadar/static\")",
+      "Bash(mv \"C:/Users/muham/Desktop/HitRadar/index.html\" \"C:/Users/muham/Desktop/HitRadar/templates/index.html\")",
+      "Bash(mv \"C:/Users/muham/Desktop/HitRadar/style.css\" \"C:/Users/muham/Desktop/HitRadar/static/style.css\")",
+      "Bash(mv \"C:/Users/muham/Desktop/HitRadar/script.js\" \"C:/Users/muham/Desktop/HitRadar/static/script.js\")",
+      "Bash(python -c \"import flask, requests; print\\('ok', flask.__version__\\)\")",
+      "Bash(pip install *)",
+      "Bash(node -c static/script.js)",
+      "Bash(chromium-cli --help)",
+      "Bash(powershell -NoProfile -Command 'Get-CimInstance Win32_Process -Filter \"Name='\\\\''python.exe'\\\\''\" | Where-Object { $_.CommandLine -like '\\\\''*app.py*'\\\\'' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }')",
+      "Bash(rm -f server.log)",
+      "Bash(python -c \"import dotenv; print\\('dotenv ok'\\)\")",
+      "Bash(curl -s http://127.0.0.1:5000/api/videos)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('app.py'\\).read\\(\\)\\); ast.parse\\(open\\('config.py'\\).read\\(\\)\\); print\\('python: OK'\\)\")",
+      "Bash(curl -s --max-time 60 http://127.0.0.1:5000/api/videos)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('app.py'\\).read\\(\\)\\); print\\('app.py: OK'\\)\")",
+      "Bash(python app.py2)",
+      "Bash(python app.py)",
+      "Bash(curl -s http://127.0.0.1:5000/)",
+      "Bash(curl *)"
+    ]
+  }
+}
